@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.header{
+    background-color: black;
+}
+.navbar.navbar-style{
+    margin-bottom: 0px;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+.navbar-nav{
+    font-size: larger;
+}
+.nav.navbar-nav a{
+    color: whitesmoke;
+}
+.nav.navbar-nav a:hover{
+    background-color: #4169e13a;
+}
+.icon-bar{
+    background-color: whitesmoke;
+}
+.prva{
+    background-image: url(/images/chair.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    background-color: transparent;
+    cursor: pointer; 
+    padding: 15px; 
+    background-image: url(/images/up.png);
+    background-repeat: no-repeat;
+    background-size:30px 30px;
+    border: none;
+    overflow: hidden;
+  }
+.dugme1{
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    border: whitesmoke;
+    transition-duration: 0.7s;
+    color:white;
+}
+.dugme1:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.druga{
+    background-color: black;
+    padding: 40px;
+}
+.row{
+    color: white;
+    background-color: black;
+}
+.container{
+    text-align: center;
+    background-color: black;
+}
+.col-lg-4.jedan{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.jedan a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-4.jedan:hover{
+    background-image: url(/images/gaming2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-4.dva{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.dva a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-4.dva:hover{
+    background-image: url(/images/ps5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-4.tri{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.tri a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-4.tri:hover{
+    background-image: url(/images/gaming3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.treca{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.futer{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.druga2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0a2467;
+}
+.ponuda{
+    background-color: transparent;
+}
+.col-lg-3.jedan{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-3.jedan a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-3.jedan:hover{
+    background-image: url(/images/gaming2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-3.dva{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-3.dva a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-3.dva:hover{
+    background-image: url(/images/ps5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-3.tri{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-3.tri a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-3.tri:hover{
+    background-image: url(/images/gaming3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-3.cetri{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-3.cetri a{
+    text-decoration: none;
+    color:white;
+}
+.col-lg-3.cetri:hover{
+    background-image: url(/images/kocka.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .ponudanaslov{
+      background-image: url(/images/vr.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 100px;
+  }
+  .onama{
+      background-image: url(/images/pozadina.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 100px;
+  }
+  .onamatekst{
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+      padding-left: 130px;
+      padding-right: 130px;
+  }
+  .onamastrana{
+      background-color: #4B0082;
+      padding-bottom: 100px;
+  }
+  .indexkontakt{
+      padding-top: 100px;
+      text-align: center;
+      color: white;
+      padding-bottom: 100px;
+      padding-left: 25px;
+      padding-right: 25px;
+      background-image: url(/images/vrq.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  .posaljiporuku{
+      padding: 20px;
+      color: white;
+      cursor: pointer;
+      background-color: transparent;
+      border: whitesmoke;
+      transition-duration: 0.7s;
+  }
+  .posaljiporuku:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+  }
+  .kontaktnaslov{
+    background-image: url(/images/gaming2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+.kontaktforma{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#button{
+    padding: 20px;
+      color: white;
+      cursor: pointer;
+      background-color: transparent;
+      border: whitesmoke;
+      transition-duration: 0.7s;
+}
+#button:hover{
+    background-color: #4c00827c;
+}
+.pcgaming{
+    background-image: url(/images/gamingg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.pcgamingtekst{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+.col-lg-4.pc1{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.pc1:hover{
+    background-image: url(/images/gamingpc1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-4.pc2{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.pc2:hover{
+    background-image: url(/images/gamingpc2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-4.pc3{
+    padding: 100px;
+    transition-duration: 0.7s;
+}
+.col-lg-4.pc3:hover{
+    background-image: url(/images/gamingpc3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.daljedugme{
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: whitesmoke;
+    transition-duration: 0.7s;
+}
+.daljedugme:hover{
+  background-color: #4c0082a1;
+}
+.ps5gaming{
+    background-image: url(/images/ps52.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.ps5gamingtekst{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+.vr{
+    background-image: url(/images/gaming33.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.igre{
+    background-image: url(/images/igre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.igrakontakt{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    background-image: url(/images/igrakontakt.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.posaljiporuku{
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: whitesmoke;
+    transition-duration: 0.7s;
+}
+.posaljiporuku:hover{
+  background-color: rgba(0, 0, 0, 0.452);
+}
